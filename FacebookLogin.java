@@ -14,9 +14,9 @@ public class FacebookLogin {
 		WebDriver driver=new FirefoxDriver();  
 	      driver.get("http://facebook.com");
 	      WebElement username = driver.findElement(By.id("email"));
-	      username.sendKeys("swatisingh.pune@yahoo.com");
+	      username.sendKeys("abcd.xyz@gmail.com");
 	      WebElement password = driver.findElement(By.id("pass"));
-	      password.sendKeys("Popcorn*007");
+	      password.sendKeys("abcdefg");
 	      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	      driver.findElement(By.id("loginbutton")).click();
 	 	  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
